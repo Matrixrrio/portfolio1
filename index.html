@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/498774b6e5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="./images/Mehul.logo1.png" alt="logo" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark"onclick="closemenu()"></i>
+            </ul>
+            
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Developer</p>
+            <h1>Hi, I'm <span>Mehul </span><br>Bhide From MIT-WPU</h1>
+        </div>
+    </div>
+</div>
+<!-----------about--------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./images/Untitleddp.png" alt="image">
+            </div>
+            <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+               Necessitatibus doloribus impedit illo est dolorum itaque 
+               excepturi voluptatum harum, cumque atque?
+            </p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing Web/app interfaces</li>
+                    <li><span>Web Development</span><br>Web app Development</li>
+                    <li><span>App Development</span><br>Flutter Development</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2022 - UI/UX</span><br>Team Lead for ui development</li>
+                    <li><span>Finance Tracker</span><br>Managing finaces using reactjs</li>
+                    <li><span>Flutter App</span><br>Login signup page</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2017-2018</span><br>SSC-89.4%</li>
+                    <li><span>2019-2020</span><br>HSC-87.6%</li>
+                    <li><span>2020-2024</span><br>B.Tech ECE</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------services---------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web Design for Boat comapny headphones  
+                    using figma transition.</p>
+                <a href="https://www.figma.com/file/DbQuPaMDzMADdnqQyOaPk5/website?type=design&node-id=0%3A1&mode=design&t=lWdpoO0PocAqgq8z-1">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX</h2>
+                <p>See My work on behance 
+                    for UI/UX
+                </p>
+                <a href="https://www.behance.net/mehulbhide">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Login and signup page 
+                    using Flutter app development
+                </p>
+                <a href="https://github.com/Matrixrrio/login">Learn more</a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<!-------------portfolio----------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./images/work-1.png" alt="w1">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>App for OCR model and 
+                        text Recognition</p>
+                    <a href="https://www.figma.com/file/ySB3iJpF9HqUm628JpKD3i/OCCCRRR?type=design&node-id=0%3A1&mode=design&t=CF7B3wiNWkbFebz3-1"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/work-2.png" alt="w1">
+                <div class="layer">
+                    <h3>Login App</h3>
+                    <p>Flutter development App
+                        for login signup </p>
+                    <a href="https://github.com/Matrixrrio/login"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/work-3.png" alt="w1">
+                <div class="layer">
+                    <h3>Finance App</h3>
+                    <p>Finance Tracker App
+                        using reactjs 
+                    </p>
+                    <a href="https://github.com/Matrixrrio/finance"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/Matrixrrio" class="btn">See More</a>
+    </div>
+</div>
+<!------contact---------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>mehulbhide02@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 9657758528</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/tvastra.jpg/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/mehul-bhide-617944223/"><i class="fa-brands fa-linkedin"></i></i></a>
+                    <a href="https://www.behance.net/mehulbhide"><i class="fa-brands fa-behance"></i></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></i></a>
+                </div>
+                <a href="./images/Mehul.pdf" download class="btn1">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn1">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &#169; 2002 Mehul all right it's me </p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right ="0";
+    }
+    function closemenu(){
+        sidemenu.style.right ="-200px";
+    }
+</script>
+    
+</body>
+</html>
